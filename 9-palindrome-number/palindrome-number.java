@@ -9,7 +9,7 @@ class Solution {
         rev=(rev*10)+(num%10);
         num=num/10;
         }
-        if(x==rev){
+        if(rev==x){
             return true;
         }
         return false;
