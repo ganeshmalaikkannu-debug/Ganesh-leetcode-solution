@@ -4,12 +4,12 @@ class Solution {
             return false;
         }
         int rev=0;
-        int org=x;
-        while(x!=0){
-        rev=(rev*10)+(x%10);
-        x=x/10;
+        int num=x;
+        while(num!=0){
+        rev=(rev*10)+(num%10);
+        num=num/10;
         }
-        if(org==rev){
+        if(x==rev){
             return true;
         }
         return false;
